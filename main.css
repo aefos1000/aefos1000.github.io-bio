@@ -1,0 +1,81 @@
+body{
+    background-color:rgba(132, 147, 121, 0.5);
+    background-image: url("assets/linktreeback.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-page{
+    width:900px;
+    height: 610px;
+
+}
+
+.main-page h1{
+    position: relative;
+    padding: 70px;
+    margin-left: 0px;
+}
+
+.a-logo {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    max-width: 200px;
+    margin-top: 90px;
+}
+.name {
+    text-align: center;
+    margin-top: auto;
+}
+.icon-container{
+    grid-area: icon;
+    /* display: flex; 
+    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    column-gap: 100px;
+    margin-top: -100px;
+  }
+
+  .icon a img{
+    height: 40px;
+    width: 40px;
+    padding: 20px 15px;
+
+  }
+  .links {
+    text-align: center;
+    margin-top:auto;
+    padding: -.95px;
+    background-color:rgb(241, 230, 216);
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+a.links:hover {
+    color:orange;
+}
+
+    h1{
+        font-family: 'Bodoni Moda', serif;
+    }
+
+
+    h2{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    h4{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+   
+  
+    
